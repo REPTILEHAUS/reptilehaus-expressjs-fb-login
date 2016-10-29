@@ -14,9 +14,9 @@ const loginfacebookreturn = require('./routes/login-return');
 const app                 = express();
 
 /* Define the Facebook APP */
-const facebookAppID       = "495983320572234";
-const facebookAppSecret   = "507b0fe76d0ae576822c21037fad018b";
-const facebookCallBackUrl = "http://reptilehaus.io/login/facebook/return";
+const facebookAppID       = "";
+const facebookAppSecret   = "";
+const facebookCallBackUrl = "";
 
 
 passport.use(new Strategy({
