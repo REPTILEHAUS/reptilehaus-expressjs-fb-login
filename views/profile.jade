@@ -1,13 +1,20 @@
 extends layout
 
 block content
+  
   h1= title
-  p ID: #{user.id}
-  p Username: #{user.username}
-  p Name #{user.displayName}
-  p Sex #{user.gender}  
+
+  if user.id
+    p ID: #{user.id}  
+  if user.username
+    p Username: #{user.username}
+  if user.displayName
+    p Name: #{user.displayName}
+  if user.gender
+    p Sex: #{user.gender}      
   if user.emails
-    p Welcome to #{user.emails[0].value}
+    p Email: #{user.emails[0].value}
+    
   if user.photos
      img(src="#{user.photos[0].value}")
   else
