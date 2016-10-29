@@ -1,4 +1,4 @@
-# reptilehaus-expressjs-fb-login
+# REPTILEHAUS ExpressJS Facebook Login
 
 
 ## Setup
@@ -27,3 +27,5 @@ This whole mapping a local domain is pretty necessary because Facebook forces yo
 a redirect URL otherwise it wont work and assuming you want to test this locally this is the only way to do that
 
 
+Visit my Website [reptilehaus.io](https://www.reptilehaus.io/)
+Follow on Twitter [@REPTILE_HAUS](https://twitter.com/reptile_haus)
