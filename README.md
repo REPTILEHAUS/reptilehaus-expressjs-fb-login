@@ -21,7 +21,9 @@ operates with high privileges:
 
     $ sudo node app.js 
 
-This whole mapping a local domain is pretty necessary because facebook forces you to enter 
-a redirect URL otherwise it wont work.
+## Why do I need to setup a host
+
+This whole mapping a local domain is pretty necessary because Facebook forces you to enter 
+a redirect URL otherwise it wont work and assuming you want to test this locally this is the only way to do that
 
 
